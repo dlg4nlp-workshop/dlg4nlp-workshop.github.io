@@ -66,8 +66,8 @@
 						<table class="table">
 						<colgroup>
 							<col width="10%" />
-							<col width="70%" />
-							<col width="18%" />
+							<col width="66%" />
+							<col width="22%" />
 						</colgroup>
 
 
@@ -87,10 +87,30 @@
 								<td>9:00-9:15am</td>
 								<td>Session: Opening Remarks</td>
 								<td style="text-align:center">
-									<img src="images/pei.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="https://sites.google.com/view/jpei/jian-peis-homepage" target = "_blank">Jian Pei</a>
+							
+
+									<div id="images">
+										<a href="https://sites.google.com/view/jpei/jian-peis-homepage">
+											<img src="images/pei.jpg" width="100px">
+											<div class="caption">Jian Pei</div>
+										</a>
+										<a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">
+											<img src="images/lingfei.jpg" width="100px"> 
+											<div class="caption">Lingfei Wu</div>
+										</a>
+									</div>
+									
+									<div id="images">
+										<a href="http://www-labs.iro.umontreal.ca/~liubang/">
+											<img src="images/bang.jpg" width="100px"> 
+											<div class="caption">Bang Liu</div>
+										</a>
+									</div>​
+
+									<!-- <img src="images/pei.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="https://sites.google.com/view/jpei/jian-peis-homepage" target = "_blank">Jian Pei</a>
 									<br />
 									<img src="images/lingfei.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/" target = "_blank">Lingfei Wu</a><br />
-									<img src="images/bang.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="http://www-labs.iro.umontreal.ca/~liubang/" target = "_blank">Bang Liu</a>
+									<img src="images/bang.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="http://www-labs.iro.umontreal.ca/~liubang/" target = "_blank">Bang Liu</a> -->
 								</td>
 								
 							</tr>
@@ -104,7 +124,14 @@
 										Abstract: Transformers have made progress in miscellaneous tasks, but suffer from quadratic computational and memory complexities. Recent works propose sparse Transformers with attention on sparse graphs to reduce complexity and remain strong performance. While effective, the crucial parts of how dense a graph needs to be to perform well are not fully explored. In this talk, we introduce Normalized Information Payload (NIP), a graph scoring function measuring information transfer on graph, which provides an analysis tool for trade-offs between performance and complexity. Guided by this theoretical analysis, we present Hypercube Transformer, a sparse Transformer that models token interactions in a hypercube and shows comparable or even better results with vanilla Transformer while yielding O(NlogN) complexity with sequence length N.
 									</p>
 								</td>
-								<td style="text-align:center;vertical-align:middle"><img src="images/xpqiu.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="https://xpqiu.github.io/en.html" target = "_blank">Xipeng Qiu, Fudan University</a><br /></td>
+								<td style="text-align:center;vertical-align:middle">
+									<div id="images">
+										<a href="https://xpqiu.github.io/en.html">
+											<img src="images/xpqiu.jpg" width="100px"> 
+											<div class="caption">Xipeng Qiu, Fudan University</div>
+										</a>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td>10:00-10:45am</td>
@@ -116,7 +143,14 @@
 										Abstract: Graph based approaches have been increasingly utilized for different NLP applications, however, what types of structures should be leveraged and to what extent these graph structures help still remain challenging. In this talk, we take a closer look at graph neural networks via two typical NLP applications: structure-aware conversation summarization and knowledge-graph enhanced question answering. Concretely, the first section looks at how to utilize graph structures to better encode discourse relations and actions in conversations for improved dialogue summarization, and the second part dissects state-of-the-art graph neural network modules and their reasoning capability for question answering.
 									</p>
 								</td>
-								<td style="text-align:center"><img src="images/Diyi_Yang.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="https://faculty.cc.gatech.edu/~dyang888/" target = "_blank">Diyi Yang, Georgia Tech</a></td>
+								<td style="text-align:center">
+									<div id="images">
+										<a href="https://faculty.cc.gatech.edu/~dyang888/">
+											<img src="images/Diyi_Yang.jpg" width="100px"> 
+											<div class="caption">Diyi Yang, Georgia Tech</div>
+										</a>
+									</div>								
+								</td>
 							</tr>
 
 							<tr>
@@ -169,7 +203,15 @@
 										Work with Bailin Wang, Chunchuan Lyu, Mirella Lapata, and Shay Cohen.
 									</p>
 								</td>
-								<td style="text-align:center"><img src="images/ititov.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="http://ivan-titov.org" target = "_blank">Ivan Titov, University of Edinburgh</a></td>
+								<td style="text-align:center">
+									
+									<div id="images">
+										<a href="http://ivan-titov.org">
+											<img src="images/ititov.jpg" width="100px"> 
+											<div class="caption">Ivan Titov, University of Edinburgh</div>
+										</a>
+									</div>		
+								</td>
 							</tr>
 
 
@@ -185,7 +227,14 @@
 										A principal challenge in this endeavor is defining a proper notion of convolutional filters. Many graph neural networks propose to define graph convolution as a localized averaging operation. While these networks achieve great success on benchmark datasets, they are known to suffer from the oversmoothing problem, i.e., they do not preserve high-frequency information. This motivates us to define an alternative, wavelet-based model of graph neural networks known as the graph scattering transform. In its initial form, the graph scattering transform is a handcrafted network with no learnable parameters (except in the final layer). This version of the graph scattering transform has the advantage of (i) being amenable to rigorous mathematical analysis and (ii) not requiring much training data. However, handcraftedness is also a form of rigidity that limits the ability of the network to learn. Therefore, I will also introduce several new variations of the graph scattering transform which are able to learn from data.
 									</p>
 								</td>
-								<td style="text-align:center"><img src="images/perlmutter.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="http://ivan-titov.org" target = "_blank">Michael Perlmutter, University of California, Los Angeles</a></td>
+								<td style="text-align:center">
+									
+									<div id="images">
+										<a href="https://sites.google.com/view/perlmutma/home">
+											<img src="images/perlmutter.jpg" width="100px"> 
+											<div class="caption">Michael Perlmutter, University of California, Los Angeles</div>
+										</a>
+									</div>
 							</tr>
 
 							
@@ -234,10 +283,24 @@
 							<td>5:45-6:00pm</td>
 							<td>Closing remarks</td>
 							<td style="text-align:center">
-								<img src="images/pei.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="https://sites.google.com/view/jpei/jian-peis-homepage" target = "_blank">Jian Pei</a>
-								<br />
-								<img src="images/lingfei.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/" target = "_blank">Lingfei Wu</a><br />
-								<img src="images/bang.jpg" class="img-responsive img-circle" style="width:100px;"><br /><a href="http://www-labs.iro.umontreal.ca/~liubang/" target = "_blank">Bang Liu</a>
+								
+								<div id="images">
+									<a href="https://sites.google.com/view/jpei/jian-peis-homepage">
+										<img src="images/pei.jpg" width="100px">
+										<div class="caption">Jian Pei</div>
+									</a>
+									<a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">
+										<img src="images/lingfei.jpg" width="100px"> 
+										<div class="caption">Lingfei Wu</div>
+									</a>
+								</div>
+								
+								<div id="images">
+									<a href="http://www-labs.iro.umontreal.ca/~liubang/">
+										<img src="images/bang.jpg" width="100px"> 
+										<div class="caption">Bang Liu</div>
+									</a>
+								</div>
 							</td>
 						</tr>
 
